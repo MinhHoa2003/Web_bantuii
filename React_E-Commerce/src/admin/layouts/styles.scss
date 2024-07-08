@@ -1,0 +1,78 @@
+.headerAdmin {
+  background: #fff;
+  height: 65px;
+  display: flex;
+  &__inner {
+    display: flex;
+    width: 100%;
+    .logo {
+      color: #02C7F2;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #ddd;
+      transition: all 0.3s;
+      &_true {
+        width: 200px;
+        font-size: 35px;
+      }
+      &_false {
+        width: 80px;
+        font-size: 25px;
+      }
+    }
+    .collapsed {
+      padding: 0 10px;
+      font-size: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+    &--flex {
+      flex: 1;
+    }
+    &--action {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 30px;
+      &--buttonHome {
+        margin-right: 10px;
+      }
+    }
+  }
+}
+.layout__admin__content {
+  padding: 30px;
+}
+
+.inforCompany {
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.manage-job {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mgb-10 {
+  padding: 5px 0;
+}
+.mgt-20 {
+  margin-top: 20px;
+}
+.mgt-10 {
+  margin-top: 10px;
+}
+.mgl-20 {
+  margin-left: 20px;
+}
+a, a:hover {
+  text-decoration: none;
+}
